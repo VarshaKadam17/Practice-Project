@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html{
+    scroll-behavior: smooth;
+    
+ }
+body{
+    /* background-color: rgb(240, 84, 136);     */
+    background-color:gray;
+}
+.main{
+    width: 100%;
+    height: 500px;
+}
+/* .main h1{
+    /* text-align: center; */
+    /* font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 100px;
+    /* margin-left: 100px; */
+/* } */  
+/* .main video{
+    /* z-index: -1; */
+/* } */ 
+/* @media (max-width:700px){
+    .main{
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* margin-left: 25%; */
+    /* transition: 0.5s;
+} */ 
+/* @media screen and (max-width:700px){
+    .navbar ul li a{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+    }
+    .main video{
+        margin-top: 200px;
+        width: 100%;
+    }
+    .navbar{
+        background-color: gray;
+        width: 50%;
+    }
+    .Aboutinfo{
+        margin-top: 10px;
+    }
+    
+} */
+/* .main video{
+    margin-left: 25%;
+    transition: 0.5s;
+} */
+@media (max-width:700px) 
+{
+    .navbar{
+        width: 100%;
+        height:200px;
+        background-color: rgb(240, 84, 136);   
+     }
+     .navbar ul li a{
+        display: block;
+        
+             
+    }
+    .video{
+        width: 100%;
+        margin-top: 200px;
+    }
+    .main{
+        height: 320px;
+    }
+    .Aboutinfo{
+        margin-top: 40px;
+    }
+    
+    .menu1{
+       flex-direction: column; 
+       flex-wrap: wrap;
+    }
+    .order{
+        width: 50%;
+        margin-top: 250px;
+        margin-left: -300px;
+        
+    }
+    
+    .order .btn{
+        margin-left: 5px;
+    }
+    .contactus{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    position: fixed;
+    /* z-index: 1; */
+    /* float: right; */
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240, 84, 136);
+}
+.navbar ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* overflow: hidden; */
+}
+.navbar ul li{
+    float:left;
+}
+.navbar ul li a{
+    color: white;
+    /* display: block; */
+    padding: 8px;
+    text-decoration: none;
+}
+.navbar .active{
+    background-color: black;
+}
+.navbar .about:hover{
+    background-color: black;
+}
+.navbar .menu:hover{
+    background-color: black;
+}
+.navbar .contact:hover{
+    background-color: black;
+}
+.navbar h1{
+    color: black;
+    text-align: center;
+    width: 400px;
+    background-color:gray;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 20px;
+}
+.navbar h1 img{
+    width: 40px;
+    
+}
+#section1{
+    width: 100%;
+    height: 700px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    /* background-image:url(assests/robertas-masthead.avif); */
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    /* background-blend-mode:overlay; */
+}
+
+.arrow{
+    position:fixed;
+    margin-left: 1020px;
+    margin-right: 10px; 
+    top: 480px;
+    /* margin-bottom: 500px; */
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    /* border-radius: 50%; */
+    /* background-color: rgb(240, 84, 136); */
+    background-color: rgb(240, 84, 136);
+    /* z-index: 2; */
+    text-align: center;
+}
+.toparrow{
+    /* z-index: 3; */
+    margin-top: 7px;
+    height: 20px;
+    color: black;
+}
+.maincourse{
+    /* background-color:rgb(240, 84, 136) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 200px; */
+    width: 100%;
+    height: 60px;
+    /* margin-left: 450px; */
+    /* border: 2px solid black; */
+    background-color: rgb(240, 84, 136);
+    /* border-radius: 5px; */
+    /* padding: 5px; */
+    text-align: center;
+}
+/* .maincourse h2{
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+} */
+.menu1{
+    display: flex;
+    flex-direction: row;
+   
+    /* flex-basis: 200px; */
+    justify-content: space-evenly;
+    
+    align-items: center;
+    height: 400px;
+    background-color:gray;
+}
+
+/* .menu1 h2{
+    margin-top: 10px;
+    
+    text-align: center;
+} */
+.menu1 .pizza1{
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    /* margin-top: 40px; */
+    /* margin-left: 110px; */
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.menu1 .pizza1 img{
+    /* margin-left: 50px; */
+    margin-top: 0px;
+    /* opacity: 0.7; */
+}
+.pizza1 h3{
+    text-align: center;
+}
+.menu1 .pizza2{
+    width: 200px;
+    height: 320px;
+    /* margin-top: 40px; */
+    /* margin-left: 10px; */
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.pizza2 img{
+    margin-top: 0px;
+}
+.menu1 .pizza3{
+    width: 200px;
+    height: 320px;
+    /* margin-top: 40px; */
+    /* margin-left: 10px; */
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.menu1 .pizza4{
+    width: 200px;
+    height: 320px;
+    /* margin-top: 40px; */
+    /* margin-left: 10px; */
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+.order{
+    /* margin-left: 450px; */
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid black; */
+    /* border-radius: 5px; */
+}
+.order .btn{
+    background-color: rgb(240, 84, 136);
+    height: 40px;
+    width: 220px;
+    margin-left: 450px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pizzaorder{
+    
+    
+    width: 900px;
+    height: 900px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: white;
+    /* text-align: justify; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:700px)
+{
+    .container{
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    .pizzaorder{
+        width: 600px;
+        height: 1700px;
+    }
+    
+
+    
+}
+.info #submit:hover{
+    background-color: black;
+    
+}
+.contactus{
+    display: flex;
+ flex-direction: row;
+ /* flex-wrap: wrap; */
+
+ /* justify-content: center; */
+ justify-content: space-around;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(240, 84, 136);
+    border: 2px solid black;
+    border-radius: 5px;
+}   
+
+footer{
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+}
